@@ -368,7 +368,7 @@ a{
 }
 .XFH{
   
-  font-size:clamp(2.8rem,5vw,4.4rem);
+  font-size:clamp(2.6rem,5vw,4.4rem);
   color: transparent;
   background-image: linear-gradient(90deg, #143ab8, #67ff30, #22d8dc);
   background-clip: text;
