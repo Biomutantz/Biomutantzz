@@ -693,6 +693,9 @@ button:hover {
   .back{
     display: none;
   }
+    .popup-content h1{
+        font-size: 20px;
+    }
 }
 
 
