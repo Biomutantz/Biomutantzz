@@ -1799,7 +1799,7 @@ a{
 .sponsorships__track {
   display: flex;
   gap: 1rem; /* Reduced gap between sponsors */
-  animation: rotate-infinite 28s linear infinite; /* Infinite scrolling effect */
+  animation: rotate-infinite 35s linear infinite; /* Infinite scrolling effect */
   will-change: transform;
 }
 
@@ -1832,7 +1832,7 @@ a{
     transform: translateX(0); 
   }
   100% {
-    transform: translateX(-340%); 
+    transform: translateX(-360%); 
   }
 }
 
