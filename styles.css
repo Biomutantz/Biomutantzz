@@ -2702,3 +2702,42 @@ p {
    padding-top: -20%;
     
 }
+
+
+.Spontit{
+  font-size: 42px;
+  text-align: center;
+  color: white;
+}
+
+.titspon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titspon img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .Spontit{
+    font-size: 30px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 500px) {
+  .Spontit{
+    font-size: 35px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 700px) {
+  .Spontit{
+    margin-top: 35px;
+  }
+}
