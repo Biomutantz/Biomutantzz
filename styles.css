@@ -2703,6 +2703,11 @@ p {
     
 }
 
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
 
 .Spontit{
   font-size: 42px;
@@ -2720,6 +2725,7 @@ p {
   width: 100%;
   max-width: 350px;
   height: auto;
+  animation: floating 2s infinite ease-in-out;
 }
 
 @media (max-width: 480px) {
